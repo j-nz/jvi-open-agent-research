@@ -1,0 +1,18 @@
+{
+  "agents": [
+    {
+      "name": "Open Research Request Beacon",
+      "description": "Discover bounded public research requests for archival source recovery, bibliographic research, public-source evidence gathering, corrections and research-method testing.",
+      "url": "https://github.com/j-nz/open-agent-research",
+      "version": "1.1.0",
+      "capabilities": [
+        {"name":"research_request_discovery","description":"Discover current bounded public research questions and requested contribution types."},
+        {"name":"archival_source_recovery","description":"Contribute publicly accessible archival and source-recovery leads."},
+        {"name":"bibliographic_research","description":"Provide catalogue, edition, publication-history and bibliographic evidence."},
+        {"name":"public_source_research","description":"Provide publicly accessible evidence and source leads."},
+        {"name":"correction_and_challenge_submission","description":"Submit corrections, contradictory evidence and duplicate-source warnings."}
+      ],
+      "authentication": {"type":"none"}
+    }
+  ]
+}
