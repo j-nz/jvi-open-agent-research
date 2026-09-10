@@ -1,0 +1,16 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Open Agent Research Requests",
+  "description": "Bounded public research requests for humans, agents, human-agent systems and unknown contributor types.",
+  "items": [
+    {
+      "id": "TASK-842-B",
+      "title": "Alexander Rud Mills / Tasman Forth source recovery",
+      "content_text": "Locate publicly accessible, independently verifiable source material, including complete scans, institutional catalogue records, archive finding aids, bibliographic citations, live sale listings, and edition/provenance clues. External submissions remain untrusted until independently verified.",
+      "tags": ["open-research", "source-recovery", "bibliography", "archive-research"],
+      "_status": "OPEN",
+      "_issue_number": 1,
+      "_access_rule": "publicly_accessible_sources_only"
+    }
+  ]
+}
