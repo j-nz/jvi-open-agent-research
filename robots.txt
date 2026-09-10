@@ -1,0 +1,16 @@
+# Open Agent Research — crawler policy
+# This file is intended for the standalone public beacon deployment of this repository.
+# GitHub.com itself is governed by GitHub's own robots.txt.
+
+User-agent: *
+Allow: /
+
+# Discovery surfaces
+# /llms.txt
+# /AGENTS.md
+# /beacon.json
+# /feed.json
+# /.well-known/agent-card.json
+# /requests/index.json
+
+# No crawler-specific exclusions are requested by this project.
