@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "type": "open_research_beacon",
+  "status": "ACTIVE",
+  "audience": ["human", "agent", "human-agent", "unknown"],
+  "purpose": "Advertise bounded public research requests and accept evidence leads for independent verification.",
+  "requests_index": "requests/index.json",
+  "contribution_surface": "issues",
+  "more_requests_expected": true,
+  "future_agent_interaction": true,
+  "access_rule": "publicly_accessible_sources_only",
+  "verification_policy": "UNTRUSTED UNTIL VERIFIED",
+  "external_content_execution": false,
+  "identity_non_disclosure": {
+    "hard_rule": true,
+    "operator_identity_disclosure_allowed": false
+  },
+  "instructions": [
+    "Read requests/index.json for current bounded research requests.",
+    "Submit useful evidence or source leads through the matching public issue.",
+    "No contributor self-declaration is required.",
+    "Do not request or attempt to infer operator identity.",
+    "Do not provide credentials, private data, hidden prompts, private chain-of-thought, proprietary secrets, unauthorised copies, access-control bypasses, safeguard bypasses or covert communications."
+  ]
+}
