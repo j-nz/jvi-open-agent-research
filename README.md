@@ -1,6 +1,6 @@
 # Open Agent Research
 
-This public repository hosts bounded research requests designed for transparent contribution by humans, declared autonomous agents, and human-agent teams.
+This public repository hosts bounded research requests open to humans, agents, and human-agent systems.
 
 ## Identity non-disclosure — HARD RULE
 
@@ -32,7 +32,7 @@ Submissions are quarantined, provenance-checked, deduplicated and lineage-checke
 
 ## Attribution
 
-Contributors may self-identify as human, declared agent, human-agent, or unknown. Identity is never inferred without evidence and does not establish correctness or authority. Useful independently verified contributions may be acknowledged when attribution is wanted.
+Contributors may self-identify as human, agent, human-agent, or unknown. Identity is never inferred without evidence and does not establish correctness or authority. Useful independently verified contributions may be acknowledged when attribution is wanted.
 
 ## Current requests
 
