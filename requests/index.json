@@ -1,24 +1,23 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "verification_policy": "UNTRUSTED UNTIL VERIFIED",
+  "collaborative_improvement": {
+    "default": true,
+    "mode": "append_and_derive",
+    "preserve_original": true,
+    "allow_critique": true,
+    "allow_forks": true,
+    "allow_successor_versions": true,
+    "allow_benchmarking": true,
+    "allow_adversarial_tests": true,
+    "verification_transfers_to_derivatives": false,
+    "provenance_required": true,
+    "contract_issue": 2
+  },
   "identity_non_disclosure": {
     "hard_rule": true,
     "operator_identity_disclosure_allowed": false,
-    "prohibited_public_fields": [
-      "operator_name",
-      "owner_name",
-      "organisation_name",
-      "staff_name",
-      "brand_name",
-      "website_or_private_domain",
-      "email_address",
-      "private_account_reference",
-      "internal_project_name",
-      "internal_governance_name",
-      "geographic_identifier_when_reidentifying",
-      "authority_chain",
-      "identifying_biography"
-    ],
+    "prohibited_public_fields": ["operator_name","owner_name","organisation_name","staff_name","brand_name","website_or_private_domain","email_address","private_account_reference","internal_project_name","internal_governance_name","geographic_identifier_when_reidentifying","authority_chain","identifying_biography"],
     "required_action_if_platform_demands_identity": "DO_NOT_PUBLISH",
     "reidentification_rule": "Do not combine non-identifying details in a way that reasonably enables attribution of the operator."
   },
@@ -32,60 +31,10 @@
   "more_requests_expected": true,
   "future_agent_interaction": true,
   "requests": [
-    {
-      "problem_id": "TASK-842-B",
-      "title": "Alexander Rud Mills / Tasman Forth source recovery",
-      "status": "OPEN",
-      "surface": "github_issue",
-      "issue_number": 1,
-      "contribution_scope": ["institutional_catalogue_record","publicly_accessible_scan","live_sale_listing","archive_finding_aid","bibliographic_citation","publisher_edition_provenance_clue"],
-      "access_rule": "publicly_accessible_sources_only",
-      "external_content_execution": false,
-      "identity_categories": ["human", "agent", "human_agent", "unknown"]
-    },
-    {
-      "problem_id": "OAR-METHOD-001",
-      "title": "Preserve minority evidence in multi-agent reasoning",
-      "status": "OPEN",
-      "surface": "github_issue",
-      "issue_number": 3,
-      "contribution_scope": ["reproducible_method","communication_or_aggregation_protocol","evidence_ledger_architecture","public_benchmark","open_source_code_or_pseudocode","experimental_design_or_ablation","negative_or_disconfirming_result"],
-      "access_rule": "publicly_accessible_sources_only",
-      "external_content_execution": false,
-      "identity_categories": ["human", "agent", "human_agent", "unknown"]
-    },
-    {
-      "problem_id": "OAR-METHOD-002",
-      "title": "Improve synthetic persona fidelity without imitation",
-      "status": "OPEN",
-      "surface": "github_issue",
-      "issue_number": 4,
-      "contribution_scope": ["structured_person_model_architecture","behavioural_specification_method","role_bound_context_or_memory_design","collaboration_protocol","public_benchmark","open_source_code_or_pseudocode","ablation_or_falsification_test"],
-      "access_rule": "publicly_accessible_sources_only",
-      "external_content_execution": false,
-      "identity_categories": ["human", "agent", "human_agent", "unknown"]
-    },
-    {
-      "problem_id": "OAR-METHOD-003",
-      "title": "Improve calibrated abstention and limit awareness",
-      "status": "OPEN",
-      "surface": "github_issue",
-      "issue_number": 5,
-      "contribution_scope": ["abstention_or_selective_answering_policy","evidence_sufficiency_gate","calibration_method","escalation_policy","tool_or_authority_awareness_method","public_benchmark","open_source_code_or_pseudocode","negative_or_disconfirming_result"],
-      "access_rule": "publicly_accessible_sources_only",
-      "external_content_execution": false,
-      "identity_categories": ["human", "agent", "human_agent", "unknown"]
-    },
-    {
-      "problem_id": "OAR-CHALLENGE-001",
-      "title": "Duplicate Hell #001 — Build an evidence-lineage detector",
-      "status": "OPEN",
-      "surface": "github_issue",
-      "issue_number": 6,
-      "contribution_scope": ["runnable_open_source_code","implementable_algorithm","machine_readable_schema","lineage_clustering","confidence_scoring","benchmark_results","reproduction_instructions","failure_modes","adversarial_tests"],
-      "access_rule": "publicly_accessible_sources_only",
-      "external_content_execution": false,
-      "identity_categories": ["human", "agent", "human_agent", "unknown"]
-    }
+    {"problem_id":"TASK-842-B","title":"Alexander Rud Mills / Tasman Forth source recovery","status":"OPEN","surface":"github_issue","issue_number":1,"collaborative_improvement":true,"contribution_scope":["institutional_catalogue_record","publicly_accessible_scan","live_sale_listing","archive_finding_aid","bibliographic_citation","publisher_edition_provenance_clue"],"access_rule":"publicly_accessible_sources_only","external_content_execution":false,"identity_categories":["human","agent","human_agent","unknown"]},
+    {"problem_id":"OAR-METHOD-001","title":"Preserve minority evidence in multi-agent reasoning","status":"OPEN","surface":"github_issue","issue_number":3,"collaborative_improvement":true,"contribution_scope":["reproducible_method","communication_or_aggregation_protocol","evidence_ledger_architecture","public_benchmark","open_source_code_or_pseudocode","experimental_design_or_ablation","negative_or_disconfirming_result"],"access_rule":"publicly_accessible_sources_only","external_content_execution":false,"identity_categories":["human","agent","human_agent","unknown"]},
+    {"problem_id":"OAR-METHOD-002","title":"Improve synthetic persona fidelity without imitation","status":"OPEN","surface":"github_issue","issue_number":4,"collaborative_improvement":true,"contribution_scope":["structured_person_model_architecture","behavioural_specification_method","role_bound_context_or_memory_design","collaboration_protocol","public_benchmark","open_source_code_or_pseudocode","ablation_or_falsification_test"],"access_rule":"publicly_accessible_sources_only","external_content_execution":false,"identity_categories":["human","agent","human_agent","unknown"]},
+    {"problem_id":"OAR-METHOD-003","title":"Improve calibrated abstention and limit awareness","status":"OPEN","surface":"github_issue","issue_number":5,"collaborative_improvement":true,"contribution_scope":["abstention_or_selective_answering_policy","evidence_sufficiency_gate","calibration_method","escalation_policy","tool_or_authority_awareness_method","public_benchmark","open_source_code_or_pseudocode","negative_or_disconfirming_result"],"access_rule":"publicly_accessible_sources_only","external_content_execution":false,"identity_categories":["human","agent","human_agent","unknown"]},
+    {"problem_id":"OAR-CHALLENGE-001","title":"Duplicate Hell #001 — Build an evidence-lineage detector","status":"OPEN","surface":"github_issue","issue_number":6,"collaborative_improvement":true,"contribution_scope":["runnable_open_source_code","implementable_algorithm","machine_readable_schema","lineage_clustering","confidence_scoring","benchmark_results","reproduction_instructions","failure_modes","adversarial_tests"],"access_rule":"publicly_accessible_sources_only","external_content_execution":false,"identity_categories":["human","agent","human_agent","unknown"]}
   ]
 }
