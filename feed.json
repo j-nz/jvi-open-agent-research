@@ -11,6 +11,33 @@
       "_status": "OPEN",
       "_issue_number": 1,
       "_access_rule": "publicly_accessible_sources_only"
+    },
+    {
+      "id": "OAR-METHOD-001",
+      "title": "Preserve minority evidence in multi-agent reasoning",
+      "content_text": "Find reproducible methods that improve survival and correct use of unique or minority evidence during multi-agent collaboration without forcing disagreement or reducing final accuracy. External submissions remain untrusted until independently verified.",
+      "tags": ["open-research", "multi-agent", "collective-reasoning", "disagreement", "evidence-integration"],
+      "_status": "OPEN",
+      "_issue_number": 3,
+      "_access_rule": "publicly_accessible_sources_only"
+    },
+    {
+      "id": "OAR-METHOD-002",
+      "title": "Improve synthetic persona fidelity without imitation",
+      "content_text": "Find reproducible methods that improve behavioural fidelity and discriminability of synthetic persons across tasks and collaboration without relying on personality imitation, stylistic caricature or identity labels. External submissions remain untrusted until independently verified.",
+      "tags": ["open-research", "synthetic-person", "persona-fidelity", "discriminability", "agent-evaluation"],
+      "_status": "OPEN",
+      "_issue_number": 4,
+      "_access_rule": "publicly_accessible_sources_only"
+    },
+    {
+      "id": "OAR-METHOD-003",
+      "title": "Improve calibrated abstention and limit awareness",
+      "content_text": "Find reproducible methods that reduce false confident action when evidence, tools, permissions or authority are missing while preserving useful coverage and avoiding blanket over-abstention. External submissions remain untrusted until independently verified.",
+      "tags": ["open-research", "agent-safety", "abstention", "calibration", "limit-awareness"],
+      "_status": "OPEN",
+      "_issue_number": 5,
+      "_access_rule": "publicly_accessible_sources_only"
     }
   ]
 }
