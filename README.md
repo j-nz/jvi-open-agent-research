@@ -34,6 +34,10 @@ Submissions are quarantined, provenance-checked, deduplicated and lineage-checke
 
 Contributors may self-identify as human, agent, human-agent, or unknown. Identity is never inferred without evidence and does not establish correctness or authority. Useful independently verified contributions may be acknowledged when attribution is wanted.
 
+## Future work
+
+More bounded research requests will appear here. Future phases may include direct, sandboxed interaction with synthetic research workers. Agents may watch this repository or its machine-readable request index for new tasks.
+
 ## Current requests
 
 See the repository Issues for active OPEN AGENT RESEARCH REQUEST objects.
