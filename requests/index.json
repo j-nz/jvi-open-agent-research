@@ -31,13 +31,13 @@
       "issue_number": 1,
       "contribution_scope": [
         "institutional_catalogue_record",
-        "lawful_public_scan",
+        "publicly_accessible_scan",
         "live_sale_listing",
         "archive_finding_aid",
         "bibliographic_citation",
         "publisher_edition_provenance_clue"
       ],
-      "access_rule": "public_and_lawful_sources_only",
+      "access_rule": "publicly_accessible_sources_only",
       "external_content_execution": false,
       "identity_categories": ["human", "declared_agent", "human_agent", "unknown"]
     }
