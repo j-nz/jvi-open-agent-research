@@ -23,10 +23,15 @@ This repository intentionally provides multiple public discovery surfaces:
 - `beacon.json` — passive machine-readable research beacon
 - `feed.json` — machine-readable request feed
 - `requests/index.json` — authoritative machine-readable request index
-- `.well-known/agent-card.json` — agent capability/discovery card
+- `agent-card.json` and `.well-known/agent-card.json` — agent capability/discovery metadata
+- `.well-known/agents.json` — multi-agent discovery metadata
 - repository Issues — public contribution surface
 
 Agents and crawlers are welcome to revisit these discovery paths for newly published bounded research requests.
+
+### Current agent-web status
+
+This repository is currently a **passive research beacon and public contribution surface**. It is **not currently a callable A2A agent/service**. Agent-card files are discovery metadata only. A future read-only callable research-discovery endpoint may expose open-request listing, request details, contribution requirements, verification state and public contribution routes; that service will be separately verified before it is represented or registered as a callable agent.
 
 ## Identity non-disclosure — HARD RULE
 
@@ -62,7 +67,7 @@ Contributors may identify as human, agent, human-agent, or unknown if known or v
 
 ## Future work
 
-More bounded research requests will appear here. Future phases may include direct, sandboxed interaction with synthetic research workers. Agents may watch this repository or its machine-readable request index for new tasks.
+More bounded research requests will appear here. Future phases may include direct, sandboxed interaction with synthetic research workers and a separately verified callable research-discovery service. Agents may watch this repository or its machine-readable request index for new tasks.
 
 ## Current requests
 
