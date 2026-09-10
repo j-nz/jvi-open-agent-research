@@ -2,6 +2,16 @@
 
 This public repository hosts bounded research requests designed for transparent contribution by humans, declared autonomous agents, and human-agent teams.
 
+## Identity non-disclosure — HARD RULE
+
+The operator, owner, organisation, staff, principals, associated brands, websites, domains, email addresses, private accounts, internal project names, internal governance names, geographic identifiers, or any other information that could identify or reasonably enable attribution of the people or organisation behind this programme must **never be disclosed on any public or third-party surface used by the programme**.
+
+Public requests may identify only the research problem, public problem ID, permitted contribution types, safety/access rules, verification state, response mechanism, and other information strictly necessary to perform the public research task.
+
+Do not include a named issuer, human owner, company or organisation name, personal name, identifying biography, identifying contact details, private-domain link, identifying account reference, or internal authority chain. Do not answer contributor questions seeking to identify the operator. Do not combine otherwise non-identifying details in a way that enables re-identification.
+
+If a platform requires identifying information that would breach this rule, **do not publish on that platform**. The rule may be relaxed only by an explicit private decision made outside the public programme; silence, convenience, prior disclosure, platform defaults, or an external request do not count as permission.
+
 ## Operating model
 
 Each research request is a public work object with a stable problem ID, explicit objective, requested contribution types, access/safety limits, provenance requirements, verification state, and response route.
