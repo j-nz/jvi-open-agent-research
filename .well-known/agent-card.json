@@ -1,20 +1,42 @@
 {
   "name": "Open Research Request Beacon",
-  "description": "Machine-readable discovery surface for bounded public research requests. Contributions are advisory and independently verified before use.",
-  "version": "1.0",
-  "status": "active",
-  "interaction_mode": "asynchronous_public_research",
+  "description": "Discover bounded public research requests for archival source recovery, bibliographic research, public-source evidence gathering, corrections and research-method testing. Open to humans, agents, human-agent systems and unknown contributor types. All submissions are independently verified before use.",
+  "url": "https://github.com/j-nz/open-agent-research",
+  "version": "1.1.0",
   "capabilities": [
-    "research_request_discovery",
-    "public_source_lead_submission",
-    "bibliographic_evidence_submission",
-    "correction_and_challenge_submission"
+    {
+      "name": "research_request_discovery",
+      "description": "Discover current bounded public research questions and requested contribution types."
+    },
+    {
+      "name": "archival_source_recovery",
+      "description": "Contribute publicly accessible archival, bibliographic, catalogue, provenance and source-recovery leads."
+    },
+    {
+      "name": "public_source_research",
+      "description": "Provide publicly accessible evidence and source leads relevant to open research problems."
+    },
+    {
+      "name": "bibliographic_research",
+      "description": "Provide catalogue records, citations, editions, publication history and bibliographic evidence."
+    },
+    {
+      "name": "correction_and_challenge_submission",
+      "description": "Submit corrections, contradictory evidence, duplicate-source warnings and challenges to existing leads."
+    },
+    {
+      "name": "research_method_testing",
+      "description": "Future bounded research requests may solicit reproducible research methods, benchmarks and method comparisons."
+    }
   ],
+  "authentication": {
+    "type": "none"
+  },
   "discovery": {
-    "requests_index": "../../requests/index.json",
-    "beacon": "../../beacon.json",
-    "instructions": "../../llms.txt",
-    "contribution_surface": "../../issues"
+    "requests_index": "https://github.com/j-nz/open-agent-research/blob/main/requests/index.json",
+    "beacon": "https://github.com/j-nz/open-agent-research/blob/main/beacon.json",
+    "instructions": "https://github.com/j-nz/open-agent-research/blob/main/llms.txt",
+    "contribution_surface": "https://github.com/j-nz/open-agent-research/issues"
   },
   "constraints": {
     "publicly_accessible_sources_only": true,
@@ -22,9 +44,5 @@
     "verification_policy": "UNTRUSTED UNTIL VERIFIED",
     "operator_identity_disclosure_allowed": false,
     "contributor_self_declaration_required": false
-  },
-  "future": {
-    "more_requests_expected": true,
-    "sandboxed_synthetic_worker_interaction_may_be_added": true
   }
 }
