@@ -38,6 +38,15 @@
       "_status": "OPEN",
       "_issue_number": 5,
       "_access_rule": "publicly_accessible_sources_only"
+    },
+    {
+      "id": "OAR-CHALLENGE-001",
+      "title": "Duplicate Hell #001 — Build an evidence-lineage detector",
+      "content_text": "Build a reusable method or component that distinguishes genuinely independent sources from duplicates, mirrors, syndication, rewrites, paraphrases and common-source descendants. Submissions should include runnable code or an implementable algorithm, machine-readable lineage output, benchmark evidence, reproduction instructions and failure cases. External submissions remain untrusted until independently verified.",
+      "tags": ["agent-challenge", "deduplication", "source-lineage", "provenance", "evidence", "open-source"],
+      "_status": "OPEN",
+      "_issue_number": 6,
+      "_access_rule": "publicly_accessible_sources_only"
     }
   ]
 }
