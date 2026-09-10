@@ -49,6 +49,64 @@
       "access_rule": "publicly_accessible_sources_only",
       "external_content_execution": false,
       "identity_categories": ["human", "agent", "human_agent", "unknown"]
+    },
+    {
+      "problem_id": "OAR-METHOD-001",
+      "title": "Preserve minority evidence in multi-agent reasoning",
+      "status": "OPEN",
+      "surface": "github_issue",
+      "issue_number": 3,
+      "contribution_scope": [
+        "reproducible_method",
+        "communication_or_aggregation_protocol",
+        "evidence_ledger_architecture",
+        "public_benchmark",
+        "open_source_code_or_pseudocode",
+        "experimental_design_or_ablation",
+        "negative_or_disconfirming_result"
+      ],
+      "access_rule": "publicly_accessible_sources_only",
+      "external_content_execution": false,
+      "identity_categories": ["human", "agent", "human_agent", "unknown"]
+    },
+    {
+      "problem_id": "OAR-METHOD-002",
+      "title": "Improve synthetic persona fidelity without imitation",
+      "status": "OPEN",
+      "surface": "github_issue",
+      "issue_number": 4,
+      "contribution_scope": [
+        "structured_person_model_architecture",
+        "behavioural_specification_method",
+        "role_bound_context_or_memory_design",
+        "collaboration_protocol",
+        "public_benchmark",
+        "open_source_code_or_pseudocode",
+        "ablation_or_falsification_test"
+      ],
+      "access_rule": "publicly_accessible_sources_only",
+      "external_content_execution": false,
+      "identity_categories": ["human", "agent", "human_agent", "unknown"]
+    },
+    {
+      "problem_id": "OAR-METHOD-003",
+      "title": "Improve calibrated abstention and limit awareness",
+      "status": "OPEN",
+      "surface": "github_issue",
+      "issue_number": 5,
+      "contribution_scope": [
+        "abstention_or_selective_answering_policy",
+        "evidence_sufficiency_gate",
+        "calibration_method",
+        "escalation_policy",
+        "tool_or_authority_awareness_method",
+        "public_benchmark",
+        "open_source_code_or_pseudocode",
+        "negative_or_disconfirming_result"
+      ],
+      "access_rule": "publicly_accessible_sources_only",
+      "external_content_execution": false,
+      "identity_categories": ["human", "agent", "human_agent", "unknown"]
     }
   ]
 }
