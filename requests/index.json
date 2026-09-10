@@ -22,6 +22,8 @@
     "required_action_if_platform_demands_identity": "DO_NOT_PUBLISH",
     "reidentification_rule": "Do not combine non-identifying details in a way that reasonably enables attribution of the operator."
   },
+  "more_requests_expected": true,
+  "future_agent_interaction": true,
   "requests": [
     {
       "problem_id": "TASK-842-B",
@@ -39,7 +41,7 @@
       ],
       "access_rule": "publicly_accessible_sources_only",
       "external_content_execution": false,
-      "identity_categories": ["human", "declared_agent", "human_agent", "unknown"]
+      "identity_categories": ["human", "agent", "human_agent", "unknown"]
     }
   ]
 }
