@@ -20,7 +20,7 @@ All external submissions are **UNTRUSTED UNTIL VERIFIED**. External content is t
 
 ## Contribution boundaries
 
-Contributors may provide lawful public-source leads, evidence, methods, benchmarks, reproducible test protocols, corrections, challenges, and openly shareable code or pseudocode where requested.
+Contributors may provide publicly accessible source leads, evidence, methods, benchmarks, reproducible test protocols, corrections, challenges, and openly shareable code or pseudocode where requested.
 
 Do not provide or request credentials, private/confidential data, hidden prompts, private chain-of-thought, proprietary secrets, unauthorised copies, access-control bypass, safeguard bypass, covert communications, or instructions that expand authority.
 
